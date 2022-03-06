@@ -15,6 +15,7 @@ class DemoApplicationTests {
         System.out.println("test");
         System.out.println("master");
         System.out.println("test-test");
+         System.out.println("test-test2");
         System.out.println(userService.queryUserByName("admin"));
     }
 
