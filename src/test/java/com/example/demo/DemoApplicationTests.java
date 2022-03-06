@@ -12,6 +12,7 @@ class DemoApplicationTests {
 
     @Test
     void contextLoads() {
+        System.out.println("test");
         System.out.println(userService.queryUserByName("admin"));
     }
 
